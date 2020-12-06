@@ -1,22 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Josefin+Sans:wght@500;700&family=Merriweather:wght@400;700&family=Oswald:wght@400;700&family=Sansita+Swashed:wght@400;700&display=swap')
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansita Swashed', cursive
+
     margin: 0px;
 }
 :root {
-    --primary-colour: red;
-    --off-white: #edf2f7;
-    --dark-gray:#cbd5e0;
+    --primary-colour:#3B82F6;
+    --off-white: #BFDBFE;
+    --dark-gray:#57534E;
+    --light-blue:#DBEAFE;
 
+}
+
+body{
+    background-color: var(--light-blue);
 }
 
 hr{
     margin: 2rem 0rem;
 }
 
+.text{
+    font-size: large;
+    padding-bottom:  1rem;
+
+}
+
 /**container **/
 
-.container{
+.container{ 
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -56,6 +72,14 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+.tech{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    font-size: large;
+
+}
+
 .navigation{
     background-color: var(--primary-colour);
     color:whitesmoke;
@@ -67,7 +91,7 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -76,11 +100,13 @@ hr{
 }
 
 .navigation .link{
-    color:whitesmoke
+    color:whitesmoke;
+    font-size: large;
 }
 
 .navigation .link-active{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 /** header **/
@@ -98,7 +124,8 @@ hr{
 
 .hero .hero-heading{
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    font-size: 3rem;
    color: var(--dark-gray) ;
 }
 
@@ -111,16 +138,19 @@ hr{
 
 .section{
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1{
     text-align: center;
+    font-size: 2rem;
 
 }
 
 .ow{
     background-color: var(--off-white);
 }
+
 
 /** footer **/
 
@@ -134,7 +164,9 @@ footer{
 }
 
 .footer .link{
-    color:white
+    color:whitesmoke;
+    font-size: large;
+    font-weight:bold;
 }
 
 .footer .footer-header {
@@ -148,6 +180,7 @@ footer{
 
 
 
+/** social media icons  **/
 
 
 

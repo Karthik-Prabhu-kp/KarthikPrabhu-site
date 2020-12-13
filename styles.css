@@ -73,6 +73,11 @@ hr{
     list-style:none;
 }
 
+.list-non-bullet-project {
+    list-style:none;
+    margin:2rem;
+}
+
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;

@@ -71,6 +71,7 @@ hr{
 /**lists **/
 .list-non-bullet {
     list-style:none;
+    padding: 1rem;
 }
 
 .list-non-bullet-project {

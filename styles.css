@@ -8,14 +8,14 @@ body {
 }
 :root {
     --primary-colour:#3B82F6;
-    --off-white: #BFDBFE;
+    --off-white:#DBEAFE;
     --dark-gray:#57534E;
     --light-blue:#DBEAFE;
 
 }
 
 body{
-    background-color: var(--light-blue);
+    /* background-color: var(--light-blue); */
 }
 
 hr{

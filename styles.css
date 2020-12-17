@@ -46,8 +46,13 @@ hr{
     border: solid black 1px;
     padding: 1rem;
     margin-bottom: 1rem;
+    transition: box-shadow .3s;
     
 }
+
+.box:hover {
+    box-shadow: 0 0 11px 7px rgba(35, 46, 61, 0.411); 
+  }
 
 .link{
     text-decoration: none;
@@ -66,7 +71,9 @@ hr{
     color: var(--primary-colour);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-colour);
+  
 }
+
 /** links **/
 /**lists **/
 .list-non-bullet {
@@ -208,3 +215,8 @@ max-width: 25px;s
 .head-media{
     max-width: 18px;
 } */
+
+
+.link .link-active{
+    font-weight: 900;
+}
